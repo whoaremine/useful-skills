@@ -1,0 +1,74 @@
+{
+  "name": "free",
+  "label": "通用简洁风（默认）",
+  "description": "中性现代排版：白底、圆角卡、柔和阴影、克制的蓝色点缀。适合绝大多数内部汇报与通用场合。",
+  "voice": "完整句、信息优先；标题可到 16 个汉字；允许适度术语，但不堆砌形容词。",
+  "fonts": {
+    "latin": "Helvetica Neue",
+    "cjk": "PingFang SC",
+    "cjk_bold": "PingFang SC Semibold",
+    "weight_mode": "split"
+  },
+  "colors": {
+    "dark_bg": "#111827",
+    "light_bg": "#FFFFFF",
+    "tint_bg": "#F6F7F9",
+    "ink": "#111827",
+    "ink_dark": "#FFFFFF",
+    "muted": "#6B7280",
+    "muted_dark": "#9CA3AF",
+    "hair": "#E5E7EB",
+    "hair_dark": "#2A3342",
+    "accent": "#2563EB",
+    "accent_dark": "#60A5FA",
+    "card": "#F6F7F9",
+    "card_dark": "#1A2231",
+    "card_line": null,
+    "shadow": "#C9D1DE"
+  },
+  "type": {
+    "hero": 76,
+    "title": 44,
+    "title_lg": 36,
+    "lead": 18,
+    "body": 14,
+    "body_xl": 17,
+    "body_sm": 12.5,
+    "small": 12,
+    "micro": 10.5,
+    "micro_faint": 10,
+    "eyebrow": 10.5,
+    "stat_big": 54,
+    "stat_huge": 96,
+    "card_title": 18
+  },
+  "tracking": {
+    "hero": -1.2,
+    "title": -0.6,
+    "title_lg": -0.4,
+    "eyebrow": 0.8
+  },
+  "geometry": {
+    "margin_x": 0.9,
+    "header_y": 0.86,
+    "content_y": 1.3,
+    "cover_y": 1.9,
+    "foot_y": 5.9,
+    "line_factor": 1.34,
+    "lead_line": 1.55,
+    "stats_y": 3.7,
+    "cards_y": 3.7,
+    "list_y": 2.3,
+    "list_step": 1.2
+  },
+  "decor": {
+    "card_shape": "rounded",
+    "card_radius": 0.09,
+    "card_border": 0,
+    "card_shadow": "soft",
+    "shadow_offset": 0.05,
+    "hairline": true,
+    "glow": false,
+    "bg_pattern": "none"
+  }
+}

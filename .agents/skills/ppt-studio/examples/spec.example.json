@@ -1,0 +1,88 @@
+{
+  "title": "DeepSeek 模型演进",
+  "style": "apple",
+  "width": 13.3333,
+  "height": 7.5,
+  "slides": [
+    {
+      "type": "cover",
+      "tone": "dark",
+      "eyebrow": "DEEPSEEK ／ 2023 — 2026",
+      "title": "从 0 到 1.6T",
+      "subtitle": ["十一代模型，一条主线：", "用更少的算力，做更强的智能。"],
+      "foot_left": "模型演进全览",
+      "foot_right": "向下探索 ↓"
+    },
+    {
+      "type": "timeline",
+      "tone": "light",
+      "eyebrow": "时间线",
+      "title": "十一个节点，一条主线。",
+      "subtitle": "从 67B 稠密模型，到 1.6T 稀疏巨兽。",
+      "nodes": [
+        { "label": "2023.11", "name": "LLM 67B", "tag": "起点", "pos": 0.0 },
+        { "label": "2024.05", "name": "V2 · MLA", "tag": "架构革命", "pos": 0.25 },
+        { "label": "2024.12", "name": "V3", "tag": "追平闭源", "pos": 0.43 },
+        { "label": "2025.01", "name": "R1", "tag": "推理觉醒", "pos": 0.57 },
+        { "label": "2025.08", "name": "V3.1", "tag": "双模合一", "pos": 0.68 },
+        { "label": "2025.09", "name": "V3.2", "tag": "稀疏注意力", "pos": 0.78 },
+        { "label": "2026.04", "name": "V4", "tag": "1M 上下文", "pos": 0.90 },
+        { "label": "2026.09", "name": "V4.1", "tag": "原生视觉", "pos": 1.0 }
+      ],
+      "footnote": "每一次迭代只做一件事：让同样的智能，便宜一个数量级。"
+    },
+    {
+      "type": "stats",
+      "tone": "dark",
+      "eyebrow": "2024.05 ／ DeepSeek-V2",
+      "title": "把成本，砍到 1/100。",
+      "subtitle": ["MLA 多头潜在注意力 + MoE 稀疏激活：", "2360 亿参数，每次只算 210 亿。"],
+      "stats": [
+        { "value": "236B", "label": "总参数" },
+        { "value": "21B", "label": "每次激活" },
+        { "value": "1/100", "label": "API 定价" }
+      ],
+      "footnote": "国内大模型价格战的起点。"
+    },
+    {
+      "type": "cards",
+      "tone": "light",
+      "eyebrow": "2025.08 — 2025.09 ／ V3.1 · V3.2",
+      "title": "一个模型，两种思考。",
+      "subtitle": ["V3.1 把 chat 与 reasoner 合成一个模型：想快就快，想深就深。", "V3.2 再用稀疏注意力（DSA）把长文本成本压下去。"],
+      "cards": [
+        { "title": "双模式", "body": "思考 / 非思考共用一套权重，随时切换" },
+        { "title": "128K", "body": "上下文长度，Agent 与工具调用专项强化" },
+        { "title": "DSA", "body": "DeepSeek 稀疏注意力，长文本更省" },
+        { "title": "Speciale", "body": "竞赛级推理专用版本，不提供工具调用" }
+      ]
+    },
+    {
+      "type": "table",
+      "tone": "light",
+      "eyebrow": "对照",
+      "title": "放在一起看。",
+      "columns": ["时间", "模型", "参数（总 / 激活）", "关键差异", "关键词"],
+      "widths": [1.05, 2.42, 2.22, 4.02, 1.72],
+      "bold_cols": [1, 4],
+      "muted_cols": [0, 2, 3],
+      "rows": [
+        ["2023.11", "DeepSeek LLM", "67B", "中英双语自研语料，从零训练", "起点"],
+        ["2024.05", "DeepSeek-V2", "236B / 21B", "MLA + MoE，价格降至约 1/100", "架构革命"],
+        ["2024.12", "DeepSeek-V3", "671B / 37B", "MTP、14.8T token，约 558 万美元", "追平闭源"],
+        ["2025.01", "DeepSeek-R1", "671B", "纯 RL 长链推理 + 蒸馏", "定义推理模型"],
+        ["2025.08", "DeepSeek-V3.1", "671B / 37B", "双模合一，128K，Agent 强化", "走向 Agent"],
+        ["2026.04", "DeepSeek-V4", "1.6T / 49B · 284B / 13B", "Token 压缩 + DSA，1M 上下文", "进入前沿"]
+      ],
+      "footnote": "数据来源：DeepSeek 官方发布说明与 API 更新日志。"
+    },
+    {
+      "type": "closing",
+      "tone": "dark",
+      "title": "会打字，就会做 PPT。",
+      "subtitle": "把需求说清楚，剩下的交给模型：大纲、排版、代码、导出。",
+      "link": "查看完整提示词  →",
+      "align": "center"
+    }
+  ]
+}

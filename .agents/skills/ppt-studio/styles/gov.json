@@ -1,0 +1,83 @@
+{
+  "name": "gov",
+  "label": "行政/公文风",
+  "description": "深蓝 + 中国红、宋体标题、直角、顶部色条、强调条目与表格。适合汇报材料、总结、方案、会议文件。示例包，按需微调。",
+  "voice": "名词化、完整句；先说结论再说依据；避免口语与夸张修饰；每条不超过两行。",
+
+  "fonts": {
+    "latin": "Times New Roman",
+    "cjk": "PingFang SC",
+    "cjk_bold": "Songti SC",
+    "weight_mode": "split"
+  },
+
+  "colors": {
+    "dark_bg": "#0E2A47",
+    "light_bg": "#FFFFFF",
+    "tint_bg": "#F2F5FA",
+    "ink": "#142B4A",
+    "ink_dark": "#FFFFFF",
+    "muted": "#53627A",
+    "muted_dark": "#B9C6D8",
+    "hair": "#C9D3E0",
+    "hair_dark": "#28425F",
+    "accent": "#B3251F",
+    "accent_dark": "#F0A9A3",
+    "card": "#F2F5FA",
+    "card_dark": "#173754",
+    "card_line": null,
+    "shadow": "#000000"
+  },
+
+  "type": {
+    "hero": 68,
+    "title": 40,
+    "title_lg": 34,
+    "lead": 18,
+    "body": 14,
+    "body_xl": 17,
+    "body_sm": 12.5,
+    "small": 12,
+    "micro": 10.5,
+    "micro_faint": 10,
+    "eyebrow": 10.5,
+    "stat_big": 50,
+    "stat_huge": 82,
+    "card_title": 19
+  },
+
+  "tracking": {
+    "hero": 0.2,
+    "title": 0.3,
+    "title_lg": 0.3,
+    "eyebrow": 1.2
+  },
+
+  "geometry": {
+    "margin_x": 0.9,
+    "header_y": 0.92,
+    "content_y": 1.5,
+    "cover_y": 2.1,
+    "foot_y": 5.9,
+    "line_factor": 1.36,
+    "lead_line": 1.65,
+    "stats_y": 3.9,
+    "cards_y": 3.9,
+    "list_y": 2.4,
+    "list_step": 1.22
+  },
+
+  "decor": {
+    "card_shape": "rect",
+    "card_radius": 0,
+    "card_border": 0,
+    "card_shadow": "none",
+    "hairline": true,
+    "glow": false,
+    "bg_pattern": "none",
+    "top_bar": { "h": 0.14, "color": "#B3251F" },
+    "table_head_bg": "#1B3A63",
+    "table_head_ink": "#FFFFFF",
+    "table_zebra": "#F2F5FA"
+  }
+}

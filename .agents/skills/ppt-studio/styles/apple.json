@@ -1,0 +1,87 @@
+{
+  "name": "apple",
+  "label": "苹果官网风",
+  "description": "大留白、极简黑白灰、超大字号、发丝线、深色页环境光。适合发布会、产品介绍、对外汇报。",
+  "voice": "短句、动词开头，一句话一个观点；不用感叹号；数字前置（671B 参数，只算 37B）；标题不超过 12 个汉字。",
+
+  "fonts": {
+    "latin": "Helvetica Neue",
+    "cjk": "PingFang SC",
+    "cjk_bold": "PingFang SC Semibold",
+    "weight_mode": "split"
+  },
+
+  "colors": {
+    "dark_bg": "#000000",
+    "light_bg": "#FFFFFF",
+    "tint_bg": "#F5F5F7",
+    "ink": "#1D1D1F",
+    "ink_dark": "#FFFFFF",
+    "muted": "#86868B",
+    "muted_dark": "#A1A1A6",
+    "hair": "#D2D2D7",
+    "hair_dark": "#2C2C2E",
+    "accent": "#0071E3",
+    "accent_dark": "#299BFF",
+    "card": "#F5F5F7",
+    "card_dark": "#161618",
+    "card_line": null,
+    "card_line_dark": null,
+    "shadow": "#000000"
+  },
+
+  "type": {
+    "hero": 96,
+    "title": 52,
+    "title_lg": 42,
+    "lead": 19,
+    "body": 14,
+    "body_xl": 16.5,
+    "body_sm": 12.5,
+    "small": 12,
+    "micro": 10.5,
+    "micro_faint": 10,
+    "eyebrow": 10.5,
+    "stat_big": 62,
+    "stat_huge": 124,
+    "card_title": 20
+  },
+
+  "tracking": {
+    "hero": -2.4,
+    "title": -1.3,
+    "title_lg": -1.1,
+    "eyebrow": 1.1,
+    "body": 0
+  },
+
+  "geometry": {
+    "margin_x": 0.95,
+    "header_y": 0.92,
+    "content_y": 1.34,
+    "cover_y": 1.6,
+    "foot_y": 5.72,
+    "line_factor": 1.34,
+    "lead_line": 1.5,
+    "stats_y": 3.86,
+    "cards_y": 3.9,
+    "list_y": 2.34,
+    "list_step": 1.28
+  },
+
+  "decor": {
+    "card_shape": "rounded",
+    "card_radius": 0.05,
+    "card_border": 0,
+    "card_shadow": "none",
+    "hairline": true,
+    "glow": true,
+    "glow_color": "#5A78FF",
+    "glow_alpha": 0.42,
+    "glow_x": 4.2,
+    "glow_y": -1.6,
+    "glow_w": 10.5,
+    "glow_h": 6.0,
+    "bg_pattern": "none"
+  }
+}

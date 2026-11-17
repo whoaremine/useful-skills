@@ -1,0 +1,39 @@
+{
+  "title": "版式全览（冒烟测试）",
+  "style": "free",
+  "slides": [
+    { "type": "cover", "tone": "dark", "eyebrow": "PPT STUDIO", "title": "十种版式，一套内容",
+      "subtitle": ["同一份内容，换样式包就换风格。", "这里把每种版式各跑一遍。"], "foot_left": "版式全览", "foot_right": "v1" },
+    { "type": "statement", "tone": "tint", "eyebrow": "statement",
+      "title": "一页只说一件事。", "body": ["标题负责表态，正文负责给依据。", "超过两行就该拆页。"] },
+    { "type": "bigstat", "tone": "tint", "eyebrow": "bigstat", "title": "一个数字，撑起一页。",
+      "caption": "hero number", "number": "67B",
+      "notes": ["2T token 中英双语自研语料", "7B / 67B 双尺寸开放权重"],
+      "items": [
+        { "title": "第一个条目", "body": "右侧三行式清单，配合左侧大数字" },
+        { "title": "第二个条目", "body": "每行一条发丝线，间距由 list_step 控制" },
+        { "title": "第三个条目", "body": "条目数建议 3 条以内" }
+      ] },
+    { "type": "stats", "tone": "dark", "eyebrow": "stats", "title": "三个数字并排。",
+      "subtitle": "横排数据，中间用竖线分隔。",
+      "stats": [ { "value": "236B", "label": "总参数" }, { "value": "21B", "label": "每次激活" }, { "value": "1/100", "label": "API 定价" } ],
+      "footnote": "脚注放页脚，用最弱的一档字色。" },
+    { "type": "cards", "tone": "light", "eyebrow": "cards", "title": "并列要点。",
+      "subtitle": "2–4 张卡片，装饰（圆角/描边/投影）完全由样式包决定。",
+      "cards": [ { "title": "双模式", "body": "思考 / 非思考共用一套权重" }, { "title": "128K", "body": "上下文长度" }, { "title": "DSA", "body": "稀疏注意力，长文本更省" }, { "title": "Speciale", "body": "竞赛级推理专用" } ] },
+    { "type": "lanes", "tone": "tint", "eyebrow": "lanes", "title": "四条主线，2×2 排布。",
+      "items": [ { "title": "架构", "detail": "Dense → MoE · MLA → MTP → DSA", "tag": "少算，多知道" }, { "title": "形态", "detail": "单一 → 拆分 → 双模合一", "tag": "一个模型，四种用法" }, { "title": "能力", "detail": "代码 → 数学 → 推理 → Agent", "tag": "从答题到办事" }, { "title": "成本", "detail": "全量开放权重，逐代降价", "tag": "智能不该是奢侈品" } ] },
+    { "type": "timeline", "tone": "light", "eyebrow": "timeline", "title": "时间轴。",
+      "subtitle": "节点用 pos（0–1）定位，首尾自动加重。",
+      "nodes": [ { "label": "2023", "name": "起点", "tag": "LLM", "pos": 0.0 }, { "label": "2024", "name": "架构", "tag": "V2", "pos": 0.3 }, { "label": "2025", "name": "推理", "tag": "R1", "pos": 0.6 }, { "label": "2026", "name": "前沿", "tag": "V4", "pos": 1.0 } ],
+      "footnote": "节点建议不超过 8 个，否则标签会挤。" },
+    { "type": "bullets", "tone": "light", "eyebrow": "bullets", "title": "文字多的场合。",
+      "bullets": [ { "title": "先说结论", "body": "把最重要的判断放在第一条，后面才是依据与展开。" }, { "title": "每条不超过两行", "body": "超过就拆成两条，或者降级成脚注。" }, { "title": "三条最佳", "body": "十条以上请改用表格版式。" } ] },
+    { "type": "table", "tone": "light", "eyebrow": "table", "title": "对照表。",
+      "columns": ["时间", "模型", "参数", "关键词"], "widths": [1.2, 3.0, 2.2, 2.6],
+      "bold_cols": [1, 3], "muted_cols": [0, 2],
+      "rows": [ ["2024.05", "DeepSeek-V2", "236B / 21B", "架构革命"], ["2024.12", "DeepSeek-V3", "671B / 37B", "追平闭源"], ["2026.04", "DeepSeek-V4", "1.6T / 49B", "进入前沿"] ],
+      "footnote": "表格只用横向发丝线，不画竖线。" },
+    { "type": "closing", "tone": "dark", "title": "就这样。", "subtitle": "换内容不换版式，换样式不换内容。", "link": "回到目录  →", "align": "center" }
+  ]
+}
